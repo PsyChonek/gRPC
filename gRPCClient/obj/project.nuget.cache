@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "Iqi2IdzN73H3Q1wcz8VM1yNOCygQowA8GD3mVLpQ9BfoofGT+3008GimboBWKxMPPxlDp5DGZEdUYEaIby14JQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Vazac\\OneDrive - Skeleton Software s.r.o\\Plocha\\gRPC\\gRPCClient\\gRPCClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vazac\\.nuget\\packages\\google.protobuf\\3.23.0\\google.protobuf.3.23.0.nupkg.sha512",
+    "C:\\Users\\Vazac\\.nuget\\packages\\grpc.core.api\\2.49.0\\grpc.core.api.2.49.0.nupkg.sha512",
+    "C:\\Users\\Vazac\\.nuget\\packages\\grpc.net.client\\2.49.0\\grpc.net.client.2.49.0.nupkg.sha512",
+    "C:\\Users\\Vazac\\.nuget\\packages\\grpc.net.common\\2.49.0\\grpc.net.common.2.49.0.nupkg.sha512",
+    "C:\\Users\\Vazac\\.nuget\\packages\\grpc.tools\\2.54.0\\grpc.tools.2.54.0.nupkg.sha512",
+    "C:\\Users\\Vazac\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\Vazac\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

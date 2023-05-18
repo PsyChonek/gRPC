@@ -1,0 +1,40 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "gRPC";
+
+package task;
+
+// The greeting service definition.
+service Tasker {
+    // Sends a greeting
+    rpc AddTask (AddTaskRequest) returns (AddTaskReply);
+    rpc GetTask (GetTaskRequest) returns (GetTaskReply);
+}
+
+// AddTaskRequest is the request message containing the task to be added.
+message AddTaskRequest {
+    CustomTask task = 1;
+    string name = 2;
+    string test = 3;
+}
+
+// AddTaskReply is the response message containing the task id.
+message AddTaskReply {
+   CustomTask task = 1;
+}
+
+// GetTaskRequest is the request message containing the task id.
+message GetTaskRequest {
+    CustomTask task = 1;
+}
+
+// GetTaskReply is the response message containing the task.
+message GetTaskReply {
+    CustomTask task = 1;
+}
+
+message CustomTask {
+    int32 id = 1;
+    string task = 2;
+}
+

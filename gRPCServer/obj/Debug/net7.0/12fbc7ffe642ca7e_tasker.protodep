@@ -1,0 +1,2 @@
+obj\Debug\net7.0\Protos/Tasker.cs \
+obj\Debug\net7.0\Protos/TaskerGrpc.cs: Protos/tasker.proto
